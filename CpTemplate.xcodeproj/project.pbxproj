@@ -139,6 +139,8 @@
 		189F4177166B2FEF00E38455 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F4174166B2FEF00E38455 /* Default-568h@2x.png */; };
 		189F4178166B2FEF00E38455 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F4175166B2FEF00E38455 /* Default-Landscape~ipad.png */; };
 		189F4179166B2FEF00E38455 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F4176166B2FEF00E38455 /* Default.png */; };
+		189F41F5166B3E2A00E38455 /* CPDebugLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F41F2166B3E2A00E38455 /* CPDebugLayer.m */; };
+		189F41F6166B3E2A00E38455 /* ChipmunkTemplateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F41F4166B3E2A00E38455 /* ChipmunkTemplateLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -451,6 +453,10 @@
 		189F4174166B2FEF00E38455 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		189F4175166B2FEF00E38455 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		189F4176166B2FEF00E38455 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		189F41F1166B3E2A00E38455 /* CPDebugLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDebugLayer.h; sourceTree = "<group>"; };
+		189F41F2166B3E2A00E38455 /* CPDebugLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDebugLayer.m; sourceTree = "<group>"; };
+		189F41F3166B3E2A00E38455 /* ChipmunkTemplateLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkTemplateLayer.h; sourceTree = "<group>"; };
+		189F41F4166B3E2A00E38455 /* ChipmunkTemplateLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChipmunkTemplateLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -532,6 +538,7 @@
 				189F3F26166B2AEE00E38455 /* HelloWorldLayer.m */,
 				189F3F28166B2AEE00E38455 /* IntroLayer.h */,
 				189F3F29166B2AEE00E38455 /* IntroLayer.m */,
+				189F41EF166B3E1100E38455 /* Support */,
 				189F3DAB166B2AEA00E38455 /* Resources */,
 				189F3DC5166B2AEA00E38455 /* libs */,
 				189F3F1E166B2AEE00E38455 /* Supporting Files */,
@@ -959,6 +966,17 @@
 			path = constraints;
 			sourceTree = "<group>";
 		};
+		189F41EF166B3E1100E38455 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				189F41F1166B3E2A00E38455 /* CPDebugLayer.h */,
+				189F41F2166B3E2A00E38455 /* CPDebugLayer.m */,
+				189F41F3166B3E2A00E38455 /* ChipmunkTemplateLayer.h */,
+				189F41F4166B3E2A00E38455 /* ChipmunkTemplateLayer.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1140,6 +1158,8 @@
 				189F3F24166B2AEE00E38455 /* AppDelegate.m in Sources */,
 				189F3F27166B2AEE00E38455 /* HelloWorldLayer.m in Sources */,
 				189F3F2A166B2AEE00E38455 /* IntroLayer.m in Sources */,
+				189F41F5166B3E2A00E38455 /* CPDebugLayer.m in Sources */,
+				189F41F6166B3E2A00E38455 /* ChipmunkTemplateLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

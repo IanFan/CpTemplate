@@ -16,18 +16,9 @@
 		189F3DA5166B2AEA00E38455 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189F3DA4166B2AEA00E38455 /* Foundation.framework */; };
 		189F3DA7166B2AEA00E38455 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189F3DA6166B2AEA00E38455 /* CoreGraphics.framework */; };
 		189F3DA9166B2AEA00E38455 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189F3DA8166B2AEA00E38455 /* GameKit.framework */; };
-		189F3DAD166B2AEA00E38455 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3DAC166B2AEA00E38455 /* Default.png */; };
-		189F3DAF166B2AEA00E38455 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3DAE166B2AEA00E38455 /* Default-Landscape~ipad.png */; };
 		189F3DB1166B2AEA00E38455 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3DB0166B2AEA00E38455 /* fps_images.png */; };
 		189F3DB3166B2AEA00E38455 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3DB2166B2AEA00E38455 /* fps_images-hd.png */; };
 		189F3DB5166B2AEA00E38455 /* fps_images-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3DB4166B2AEA00E38455 /* fps_images-ipadhd.png */; };
-		189F3DB7166B2AEA00E38455 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3DB6166B2AEA00E38455 /* Icon-72.png */; };
-		189F3DB9166B2AEA00E38455 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3DB8166B2AEA00E38455 /* Icon-Small-50.png */; };
-		189F3DBB166B2AEA00E38455 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3DBA166B2AEA00E38455 /* Icon-Small.png */; };
-		189F3DBD166B2AEA00E38455 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3DBC166B2AEA00E38455 /* Icon-Small@2x.png */; };
-		189F3DBF166B2AEA00E38455 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3DBE166B2AEA00E38455 /* Icon.png */; };
-		189F3DC1166B2AEA00E38455 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3DC0166B2AEA00E38455 /* Icon@2x.png */; };
-		189F3DC4166B2AEA00E38455 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 189F3DC3166B2AEA00E38455 /* iTunesArtwork */; };
 		189F3DC9166B2AEA00E38455 /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F3DC8166B2AEA00E38455 /* CCAction.m */; };
 		189F3DCC166B2AEA00E38455 /* CCActionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F3DCB166B2AEA00E38455 /* CCActionCamera.m */; };
 		189F3DCF166B2AEA00E38455 /* CCActionCatmullRom.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F3DCE166B2AEA00E38455 /* CCActionCatmullRom.m */; };
@@ -133,6 +124,21 @@
 		189F3F24166B2AEE00E38455 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F3F23166B2AEE00E38455 /* AppDelegate.m */; };
 		189F3F27166B2AEE00E38455 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F3F26166B2AEE00E38455 /* HelloWorldLayer.m */; };
 		189F3F2A166B2AEE00E38455 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F3F29166B2AEE00E38455 /* IntroLayer.m */; };
+		189F3FAB166B2CD500E38455 /* libChipmunkPro-iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 189F3FA9166B2CD500E38455 /* libChipmunkPro-iPhone.a */; };
+		189F3FBD166B2D0C00E38455 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3FB0166B2D0C00E38455 /* Icon-72.png */; };
+		189F3FBE166B2D0C00E38455 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3FB1166B2D0C00E38455 /* Icon-72@2x.png */; };
+		189F3FBF166B2D0C00E38455 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3FB2166B2D0C00E38455 /* Icon-Small-50.png */; };
+		189F3FC0166B2D0C00E38455 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3FB3166B2D0C00E38455 /* Icon-Small-50@2x.png */; };
+		189F3FC1166B2D0C00E38455 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3FB4166B2D0C00E38455 /* Icon-Small.png */; };
+		189F3FC2166B2D0C00E38455 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3FB5166B2D0C00E38455 /* Icon-Small@2x.png */; };
+		189F3FC3166B2D0C00E38455 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3FB6166B2D0C00E38455 /* Icon.png */; };
+		189F3FC4166B2D0C00E38455 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3FB7166B2D0C00E38455 /* Icon@2x.png */; };
+		189F3FC5166B2D0C00E38455 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 189F3FB8166B2D0C00E38455 /* iTunesArtwork */; };
+		189F3FC6166B2D0C00E38455 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F3FB9166B2D0C00E38455 /* iTunesArtwork@2x.png */; };
+		189F3FC8166B2D1C00E38455 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189F3FC7166B2D1C00E38455 /* ImageIO.framework */; };
+		189F4177166B2FEF00E38455 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F4174166B2FEF00E38455 /* Default-568h@2x.png */; };
+		189F4178166B2FEF00E38455 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F4175166B2FEF00E38455 /* Default-Landscape~ipad.png */; };
+		189F4179166B2FEF00E38455 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F4176166B2FEF00E38455 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -146,19 +152,10 @@
 		189F3DA4166B2AEA00E38455 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		189F3DA6166B2AEA00E38455 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		189F3DA8166B2AEA00E38455 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		189F3DAC166B2AEA00E38455 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
-		189F3DAE166B2AEA00E38455 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "Resources/Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		189F3DB0166B2AEA00E38455 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = Resources/fps_images.png; sourceTree = "<group>"; };
 		189F3DB2166B2AEA00E38455 /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-hd.png"; path = "Resources/fps_images-hd.png"; sourceTree = "<group>"; };
 		189F3DB4166B2AEA00E38455 /* fps_images-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-ipadhd.png"; path = "Resources/fps_images-ipadhd.png"; sourceTree = "<group>"; };
-		189F3DB6166B2AEA00E38455 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
-		189F3DB8166B2AEA00E38455 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
-		189F3DBA166B2AEA00E38455 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Icon-Small.png"; sourceTree = "<group>"; };
-		189F3DBC166B2AEA00E38455 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
-		189F3DBE166B2AEA00E38455 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
-		189F3DC0166B2AEA00E38455 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
 		189F3DC2166B2AEA00E38455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
-		189F3DC3166B2AEA00E38455 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
 		189F3DC7166B2AEA00E38455 /* CCAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCAction.h; path = libs/cocos2d/CCAction.h; sourceTree = "<group>"; };
 		189F3DC8166B2AEA00E38455 /* CCAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CCAction.m; path = libs/cocos2d/CCAction.m; sourceTree = "<group>"; };
 		189F3DCA166B2AEA00E38455 /* CCActionCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCActionCamera.h; path = libs/cocos2d/CCActionCamera.h; sourceTree = "<group>"; };
@@ -398,6 +395,62 @@
 		189F3F26166B2AEE00E38455 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		189F3F28166B2AEE00E38455 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		189F3F29166B2AEE00E38455 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		189F3F80166B2CD400E38455 /* chipmunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk.h; sourceTree = "<group>"; };
+		189F3F81166B2CD400E38455 /* chipmunk_ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_ffi.h; sourceTree = "<group>"; };
+		189F3F82166B2CD400E38455 /* chipmunk_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_private.h; sourceTree = "<group>"; };
+		189F3F83166B2CD400E38455 /* chipmunk_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_types.h; sourceTree = "<group>"; };
+		189F3F84166B2CD400E38455 /* chipmunk_unsafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_unsafe.h; sourceTree = "<group>"; };
+		189F3F86166B2CD500E38455 /* cpConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpConstraint.h; sourceTree = "<group>"; };
+		189F3F87166B2CD500E38455 /* cpDampedRotarySpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedRotarySpring.h; sourceTree = "<group>"; };
+		189F3F88166B2CD500E38455 /* cpDampedSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedSpring.h; sourceTree = "<group>"; };
+		189F3F89166B2CD500E38455 /* cpGearJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpGearJoint.h; sourceTree = "<group>"; };
+		189F3F8A166B2CD500E38455 /* cpGrooveJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpGrooveJoint.h; sourceTree = "<group>"; };
+		189F3F8B166B2CD500E38455 /* cpPinJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPinJoint.h; sourceTree = "<group>"; };
+		189F3F8C166B2CD500E38455 /* cpPivotJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPivotJoint.h; sourceTree = "<group>"; };
+		189F3F8D166B2CD500E38455 /* cpRatchetJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRatchetJoint.h; sourceTree = "<group>"; };
+		189F3F8E166B2CD500E38455 /* cpRotaryLimitJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRotaryLimitJoint.h; sourceTree = "<group>"; };
+		189F3F8F166B2CD500E38455 /* cpSimpleMotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSimpleMotor.h; sourceTree = "<group>"; };
+		189F3F90166B2CD500E38455 /* cpSlideJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSlideJoint.h; sourceTree = "<group>"; };
+		189F3F91166B2CD500E38455 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		189F3F92166B2CD500E38455 /* cpArbiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpArbiter.h; sourceTree = "<group>"; };
+		189F3F93166B2CD500E38455 /* cpBB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpBB.h; sourceTree = "<group>"; };
+		189F3F94166B2CD500E38455 /* cpBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpBody.h; sourceTree = "<group>"; };
+		189F3F95166B2CD500E38455 /* cpPolyShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPolyShape.h; sourceTree = "<group>"; };
+		189F3F96166B2CD500E38455 /* cpShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpShape.h; sourceTree = "<group>"; };
+		189F3F97166B2CD500E38455 /* cpSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpace.h; sourceTree = "<group>"; };
+		189F3F98166B2CD500E38455 /* cpSpatialIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpatialIndex.h; sourceTree = "<group>"; };
+		189F3F99166B2CD500E38455 /* cpVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpVect.h; sourceTree = "<group>"; };
+		189F3F9A166B2CD500E38455 /* ChipmunkAutoGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkAutoGeometry.h; sourceTree = "<group>"; };
+		189F3F9B166B2CD500E38455 /* ChipmunkBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkBody.h; sourceTree = "<group>"; };
+		189F3F9C166B2CD500E38455 /* ChipmunkConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkConstraint.h; sourceTree = "<group>"; };
+		189F3F9D166B2CD500E38455 /* ChipmunkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkExtras.h; sourceTree = "<group>"; };
+		189F3F9E166B2CD500E38455 /* ChipmunkHastySpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkHastySpace.h; sourceTree = "<group>"; };
+		189F3F9F166B2CD500E38455 /* ChipmunkImageSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkImageSampler.h; sourceTree = "<group>"; };
+		189F3FA0166B2CD500E38455 /* ChipmunkMultiGrab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkMultiGrab.h; sourceTree = "<group>"; };
+		189F3FA1166B2CD500E38455 /* ChipmunkObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkObject.h; sourceTree = "<group>"; };
+		189F3FA2166B2CD500E38455 /* ChipmunkPointCloudSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkPointCloudSampler.h; sourceTree = "<group>"; };
+		189F3FA3166B2CD500E38455 /* ChipmunkShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkShape.h; sourceTree = "<group>"; };
+		189F3FA4166B2CD500E38455 /* ChipmunkSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkSpace.h; sourceTree = "<group>"; };
+		189F3FA5166B2CD500E38455 /* ChipmunkTileCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkTileCache.h; sourceTree = "<group>"; };
+		189F3FA6166B2CD500E38455 /* cpHastySpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpHastySpace.h; sourceTree = "<group>"; };
+		189F3FA7166B2CD500E38455 /* cpMarch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpMarch.h; sourceTree = "<group>"; };
+		189F3FA8166B2CD500E38455 /* cpPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPolyline.h; sourceTree = "<group>"; };
+		189F3FA9166B2CD500E38455 /* libChipmunkPro-iPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libChipmunkPro-iPhone.a"; sourceTree = "<group>"; };
+		189F3FAA166B2CD500E38455 /* ObjectiveChipmunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveChipmunk.h; sourceTree = "<group>"; };
+		189F3FB0166B2D0C00E38455 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		189F3FB1166B2D0C00E38455 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		189F3FB2166B2D0C00E38455 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		189F3FB3166B2D0C00E38455 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		189F3FB4166B2D0C00E38455 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		189F3FB5166B2D0C00E38455 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		189F3FB6166B2D0C00E38455 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		189F3FB7166B2D0C00E38455 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		189F3FB8166B2D0C00E38455 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		189F3FB9166B2D0C00E38455 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		189F3FC7166B2D1C00E38455 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		189F4174166B2FEF00E38455 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		189F4175166B2FEF00E38455 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		189F4176166B2FEF00E38455 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -405,6 +458,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189F3FC8166B2D1C00E38455 /* ImageIO.framework in Frameworks */,
 				189F3D99166B2AEA00E38455 /* QuartzCore.framework in Frameworks */,
 				189F3D9B166B2AEA00E38455 /* OpenGLES.framework in Frameworks */,
 				189F3D9D166B2AEA00E38455 /* OpenAL.framework in Frameworks */,
@@ -414,6 +468,7 @@
 				189F3DA5166B2AEA00E38455 /* Foundation.framework in Frameworks */,
 				189F3DA7166B2AEA00E38455 /* CoreGraphics.framework in Frameworks */,
 				189F3DA9166B2AEA00E38455 /* GameKit.framework in Frameworks */,
+				189F3FAB166B2CD500E38455 /* libChipmunkPro-iPhone.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +478,21 @@
 		189F3D89166B2AEA00E38455 = {
 			isa = PBXGroup;
 			children = (
+				189F3F7E166B2CD400E38455 /* ChipmunkPro-iPhone-Trial */,
+				189F3FC7166B2D1C00E38455 /* ImageIO.framework */,
+				189F3FB0166B2D0C00E38455 /* Icon-72.png */,
+				189F3FB1166B2D0C00E38455 /* Icon-72@2x.png */,
+				189F3FB2166B2D0C00E38455 /* Icon-Small-50.png */,
+				189F3FB3166B2D0C00E38455 /* Icon-Small-50@2x.png */,
+				189F3FB4166B2D0C00E38455 /* Icon-Small.png */,
+				189F3FB5166B2D0C00E38455 /* Icon-Small@2x.png */,
+				189F3FB6166B2D0C00E38455 /* Icon.png */,
+				189F3FB7166B2D0C00E38455 /* Icon@2x.png */,
+				189F4174166B2FEF00E38455 /* Default-568h@2x.png */,
+				189F4175166B2FEF00E38455 /* Default-Landscape~ipad.png */,
+				189F4176166B2FEF00E38455 /* Default.png */,
+				189F3FB8166B2D0C00E38455 /* iTunesArtwork */,
+				189F3FB9166B2D0C00E38455 /* iTunesArtwork@2x.png */,
 				189F3DAA166B2AEA00E38455 /* CpTemplate */,
 				189F3D97166B2AEA00E38455 /* Frameworks */,
 				189F3D95166B2AEA00E38455 /* Products */,
@@ -472,19 +542,10 @@
 		189F3DAB166B2AEA00E38455 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				189F3DAC166B2AEA00E38455 /* Default.png */,
-				189F3DAE166B2AEA00E38455 /* Default-Landscape~ipad.png */,
 				189F3DB0166B2AEA00E38455 /* fps_images.png */,
 				189F3DB2166B2AEA00E38455 /* fps_images-hd.png */,
 				189F3DB4166B2AEA00E38455 /* fps_images-ipadhd.png */,
-				189F3DB6166B2AEA00E38455 /* Icon-72.png */,
-				189F3DB8166B2AEA00E38455 /* Icon-Small-50.png */,
-				189F3DBA166B2AEA00E38455 /* Icon-Small.png */,
-				189F3DBC166B2AEA00E38455 /* Icon-Small@2x.png */,
-				189F3DBE166B2AEA00E38455 /* Icon.png */,
-				189F3DC0166B2AEA00E38455 /* Icon@2x.png */,
 				189F3DC2166B2AEA00E38455 /* Info.plist */,
-				189F3DC3166B2AEA00E38455 /* iTunesArtwork */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -832,6 +893,72 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		189F3F7E166B2CD400E38455 /* ChipmunkPro-iPhone-Trial */ = {
+			isa = PBXGroup;
+			children = (
+				189F3F7F166B2CD400E38455 /* chipmunk */,
+				189F3F9A166B2CD500E38455 /* ChipmunkAutoGeometry.h */,
+				189F3F9B166B2CD500E38455 /* ChipmunkBody.h */,
+				189F3F9C166B2CD500E38455 /* ChipmunkConstraint.h */,
+				189F3F9D166B2CD500E38455 /* ChipmunkExtras.h */,
+				189F3F9E166B2CD500E38455 /* ChipmunkHastySpace.h */,
+				189F3F9F166B2CD500E38455 /* ChipmunkImageSampler.h */,
+				189F3FA0166B2CD500E38455 /* ChipmunkMultiGrab.h */,
+				189F3FA1166B2CD500E38455 /* ChipmunkObject.h */,
+				189F3FA2166B2CD500E38455 /* ChipmunkPointCloudSampler.h */,
+				189F3FA3166B2CD500E38455 /* ChipmunkShape.h */,
+				189F3FA4166B2CD500E38455 /* ChipmunkSpace.h */,
+				189F3FA5166B2CD500E38455 /* ChipmunkTileCache.h */,
+				189F3FA6166B2CD500E38455 /* cpHastySpace.h */,
+				189F3FA7166B2CD500E38455 /* cpMarch.h */,
+				189F3FA8166B2CD500E38455 /* cpPolyline.h */,
+				189F3FA9166B2CD500E38455 /* libChipmunkPro-iPhone.a */,
+				189F3FAA166B2CD500E38455 /* ObjectiveChipmunk.h */,
+			);
+			name = "ChipmunkPro-iPhone-Trial";
+			path = "CpTemplate/libs/ChipmunkPro-iPhone-Trial";
+			sourceTree = "<group>";
+		};
+		189F3F7F166B2CD400E38455 /* chipmunk */ = {
+			isa = PBXGroup;
+			children = (
+				189F3F80166B2CD400E38455 /* chipmunk.h */,
+				189F3F81166B2CD400E38455 /* chipmunk_ffi.h */,
+				189F3F82166B2CD400E38455 /* chipmunk_private.h */,
+				189F3F83166B2CD400E38455 /* chipmunk_types.h */,
+				189F3F84166B2CD400E38455 /* chipmunk_unsafe.h */,
+				189F3F85166B2CD400E38455 /* constraints */,
+				189F3F92166B2CD500E38455 /* cpArbiter.h */,
+				189F3F93166B2CD500E38455 /* cpBB.h */,
+				189F3F94166B2CD500E38455 /* cpBody.h */,
+				189F3F95166B2CD500E38455 /* cpPolyShape.h */,
+				189F3F96166B2CD500E38455 /* cpShape.h */,
+				189F3F97166B2CD500E38455 /* cpSpace.h */,
+				189F3F98166B2CD500E38455 /* cpSpatialIndex.h */,
+				189F3F99166B2CD500E38455 /* cpVect.h */,
+			);
+			path = chipmunk;
+			sourceTree = "<group>";
+		};
+		189F3F85166B2CD400E38455 /* constraints */ = {
+			isa = PBXGroup;
+			children = (
+				189F3F86166B2CD500E38455 /* cpConstraint.h */,
+				189F3F87166B2CD500E38455 /* cpDampedRotarySpring.h */,
+				189F3F88166B2CD500E38455 /* cpDampedSpring.h */,
+				189F3F89166B2CD500E38455 /* cpGearJoint.h */,
+				189F3F8A166B2CD500E38455 /* cpGrooveJoint.h */,
+				189F3F8B166B2CD500E38455 /* cpPinJoint.h */,
+				189F3F8C166B2CD500E38455 /* cpPivotJoint.h */,
+				189F3F8D166B2CD500E38455 /* cpRatchetJoint.h */,
+				189F3F8E166B2CD500E38455 /* cpRotaryLimitJoint.h */,
+				189F3F8F166B2CD500E38455 /* cpSimpleMotor.h */,
+				189F3F90166B2CD500E38455 /* cpSlideJoint.h */,
+				189F3F91166B2CD500E38455 /* util.h */,
+			);
+			path = constraints;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -882,19 +1009,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189F3DAD166B2AEA00E38455 /* Default.png in Resources */,
-				189F3DAF166B2AEA00E38455 /* Default-Landscape~ipad.png in Resources */,
 				189F3DB1166B2AEA00E38455 /* fps_images.png in Resources */,
 				189F3DB3166B2AEA00E38455 /* fps_images-hd.png in Resources */,
 				189F3DB5166B2AEA00E38455 /* fps_images-ipadhd.png in Resources */,
-				189F3DB7166B2AEA00E38455 /* Icon-72.png in Resources */,
-				189F3DB9166B2AEA00E38455 /* Icon-Small-50.png in Resources */,
-				189F3DBB166B2AEA00E38455 /* Icon-Small.png in Resources */,
-				189F3DBD166B2AEA00E38455 /* Icon-Small@2x.png in Resources */,
-				189F3DBF166B2AEA00E38455 /* Icon.png in Resources */,
-				189F3DC1166B2AEA00E38455 /* Icon@2x.png in Resources */,
-				189F3DC4166B2AEA00E38455 /* iTunesArtwork in Resources */,
 				189F3F02166B2AEE00E38455 /* ChangeLog in Resources */,
+				189F3FBD166B2D0C00E38455 /* Icon-72.png in Resources */,
+				189F3FBE166B2D0C00E38455 /* Icon-72@2x.png in Resources */,
+				189F3FBF166B2D0C00E38455 /* Icon-Small-50.png in Resources */,
+				189F3FC0166B2D0C00E38455 /* Icon-Small-50@2x.png in Resources */,
+				189F3FC1166B2D0C00E38455 /* Icon-Small.png in Resources */,
+				189F3FC2166B2D0C00E38455 /* Icon-Small@2x.png in Resources */,
+				189F3FC3166B2D0C00E38455 /* Icon.png in Resources */,
+				189F3FC4166B2D0C00E38455 /* Icon@2x.png in Resources */,
+				189F3FC5166B2D0C00E38455 /* iTunesArtwork in Resources */,
+				189F3FC6166B2D0C00E38455 /* iTunesArtwork@2x.png in Resources */,
+				189F4177166B2FEF00E38455 /* Default-568h@2x.png in Resources */,
+				189F4178166B2FEF00E38455 /* Default-Landscape~ipad.png in Resources */,
+				189F4179166B2FEF00E38455 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1065,6 +1196,10 @@
 				GCC_PREFIX_HEADER = CpTemplate/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"CpTemplate/libs/kazmath/include\"";
 				INFOPLIST_FILE = CpTemplate/Resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/CpTemplate/libs/ChipmunkPro-iPhone-Trial\"",
+				);
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
@@ -1083,6 +1218,10 @@
 				GCC_PREFIX_HEADER = CpTemplate/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"CpTemplate/libs/kazmath/include\"";
 				INFOPLIST_FILE = CpTemplate/Resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/CpTemplate/libs/ChipmunkPro-iPhone-Trial\"",
+				);
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
@@ -1112,6 +1251,7 @@
 				189F3F2F166B2AEE00E38455 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

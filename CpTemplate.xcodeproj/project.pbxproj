@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1808AD4A166C726F004804DB /* OCpSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808AD47166C726F004804DB /* OCpSprite.m */; };
+		1808AD4B166C726F004804DB /* OCpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808AD49166C726F004804DB /* OCpButton.m */; };
 		189F3D99166B2AEA00E38455 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189F3D98166B2AEA00E38455 /* QuartzCore.framework */; };
 		189F3D9B166B2AEA00E38455 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189F3D9A166B2AEA00E38455 /* OpenGLES.framework */; };
 		189F3D9D166B2AEA00E38455 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189F3D9C166B2AEA00E38455 /* OpenAL.framework */; };
@@ -144,6 +146,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1808AD46166C726F004804DB /* OCpSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCpSprite.h; sourceTree = "<group>"; };
+		1808AD47166C726F004804DB /* OCpSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCpSprite.m; sourceTree = "<group>"; };
+		1808AD48166C726F004804DB /* OCpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCpButton.h; sourceTree = "<group>"; };
+		1808AD49166C726F004804DB /* OCpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCpButton.m; sourceTree = "<group>"; };
 		189F3D94166B2AEA00E38455 /* CpTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CpTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189F3D98166B2AEA00E38455 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		189F3D9A166B2AEA00E38455 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -971,6 +977,10 @@
 			children = (
 				189F41F1166B3E2A00E38455 /* CPDebugLayer.h */,
 				189F41F2166B3E2A00E38455 /* CPDebugLayer.m */,
+				1808AD46166C726F004804DB /* OCpSprite.h */,
+				1808AD47166C726F004804DB /* OCpSprite.m */,
+				1808AD48166C726F004804DB /* OCpButton.h */,
+				1808AD49166C726F004804DB /* OCpButton.m */,
 				189F41F3166B3E2A00E38455 /* ChipmunkTemplateLayer.h */,
 				189F41F4166B3E2A00E38455 /* ChipmunkTemplateLayer.m */,
 			);
@@ -1160,6 +1170,8 @@
 				189F3F2A166B2AEE00E38455 /* IntroLayer.m in Sources */,
 				189F41F5166B3E2A00E38455 /* CPDebugLayer.m in Sources */,
 				189F41F6166B3E2A00E38455 /* ChipmunkTemplateLayer.m in Sources */,
+				1808AD4A166C726F004804DB /* OCpSprite.m in Sources */,
+				1808AD4B166C726F004804DB /* OCpButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

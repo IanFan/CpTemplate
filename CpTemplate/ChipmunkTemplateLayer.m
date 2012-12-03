@@ -22,32 +22,6 @@
 }
 
 #pragma mark -
-#pragma mark ChipmunkSpace
-
--(void)setChipmunkSpace {
-  CGSize winSize = [CCDirector sharedDirector].winSize;
-  
-  _space = [[ChipmunkSpace alloc]init];
-  [_space addBounds:CGRectMake(0, 0, winSize.width, winSize.height) thickness:60.0 elasticity:1.0 friction:0.2 layers:NOT_GRABABLE_MASK group:nil collisionType:nil];
-  _space.gravity = cpv(0, -300);
-  _space.iterations = 30;
-}
-
-#pragma mark -
-#pragma mark ChipmunkObjects
-
--(void)setChipmunkObjects {
-  
-}
-
-#pragma mark -
-#pragma mark Update
-
--(void)update:(ccTime)dt {
-  [_space step:dt];
-}
-
-#pragma mark -
 #pragma mark Touch Event
 
 -(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
@@ -82,6 +56,28 @@
 }
 
 #pragma mark -
+#pragma mark Update
+
+-(void)update:(ccTime)dt {
+  [_space step:dt];
+}
+
+#pragma mark -
+#pragma mark Chipmunk objects
+
+-(void)setChipmunkObjects {
+  
+}
+
+#pragma mark -
+#pragma mark CpDebugLayer
+
+-(void)setChipmunkDebugLayer {
+  _debugLayer = [[CPDebugLayer alloc]initWithSpace:_space.space options:nil];
+  [self addChild:_debugLayer z:999];
+}
+
+#pragma mark -
 #pragma mark ChipmunkMultiGrab
 
 -(void)setChipmunkMultiGrab {
@@ -99,11 +95,15 @@
 }
 
 #pragma mark -
-#pragma mark CpDebugLayer
+#pragma mark ChipmunkSpace
 
--(void)setChipmunkDebugLayer {
-  _debugLayer = [[CPDebugLayer alloc]initWithSpace:_space.space options:nil];
-  [self addChild:_debugLayer z:999];
+-(void)setChipmunkSpace {
+  CGSize winSize = [CCDirector sharedDirector].winSize;
+  
+  _space = [[ChipmunkSpace alloc]init];
+  [_space addBounds:CGRectMake(0, 0, winSize.width, winSize.height) thickness:60.0 elasticity:1.0 friction:0.2 layers:NOT_GRABABLE_MASK group:nil collisionType:nil];
+  _space.gravity = cpv(0, -300);
+  _space.iterations = 30;
 }
 
 #pragma mark -
@@ -115,11 +115,11 @@
     
     [self setChipmunkSpace];
     
-    [self setChipmunkObjects];
-    
     [self setChipmunkMultiGrab];
     
     [self setChipmunkDebugLayer];
+    
+    [self setChipmunkObjects];
     
     [self schedule:@selector(update:)];
 	}
